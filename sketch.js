@@ -29,13 +29,13 @@ function setup() {
 	groundSprite.shapeColor=color(255);
 	groundSprite.visible=false;
 
-	Log1Sprite=createSprite(width/2.5,650,15);
+	Log1Sprite=createSprite(width/2.7,650,15);
 	Log1Sprite.shapeColor=color(255);
 
 	Log2Sprite=createSprite(width/1.7,650,15);
 	Log2Sprite.shapeColor=color(255);
 
-	Log3Sprite=createSprite(width/2,695,150,15);
+	Log3Sprite=createSprite(width/2.1,695,180,15);
 	Log3Sprite.shapeColor=color(255);
 
 	engine = Engine.create();
